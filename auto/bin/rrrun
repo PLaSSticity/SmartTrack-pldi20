@@ -1,0 +1,4 @@
+#!/bin/bash
+           /usr/lib/jvm/jdk1.8.0_144/jre/bin/java -version 
+                          echo 
+           /usr/lib/jvm/jdk1.8.0_144/jre/bin/java -javaagent:/home/jake/git/PIP-implementation/build/jar/rragent.jar $JVM_ARGS -Xbootclasspath/p:/home/jake/git/PIP-implementation/classes:/home/jake/git/PIP-implementation/jars/java-cup-11a.jar: rr.RRMain $*
